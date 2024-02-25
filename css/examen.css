@@ -1,0 +1,982 @@
+/* PERSONALIZACION BARRA NAVEGACION */
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.optmenu { 
+    font-size: 16px;
+    font-family: 'Bebas Neue', sans-serif;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #fff;
+    background-color: rgba(50, 83, 83, 0.648);
+    transition: all 1s solid;
+    border-radius: 15px;
+}
+
+.optmenu:active {
+    background-color: rgb(36, 43, 43);
+    border-radius: 15px;
+}
+
+.menu{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+
+.navbar-toggler {
+    background-color: #f5f7f9;
+    border:  3px solid #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: rgba(50, 83, 83, 0.648);
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+/*3 lineas horizontales */
+
+/*http: //hex2rgba.devoth.com  colores rgba*/
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}         
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*Header, footer y body*/
+
+.header{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.305);
+    box-shadow: 0 8px 8px 0 rgba(20, 20, 20, 0.95);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(0, 0, 0, 0.133);
+}
+
+.footer{
+    padding: 10px;
+    background-color: rgb(19, 18, 18);
+    float: right;
+}
+
+.examen{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+}
+
+.body{
+    background-color: rgb(19, 18, 18);
+}
+
+/*Scroltop*/
+
+.goto-top {
+    position: fixed;
+    bottom: 110px;
+    right: 20px;
+    width: 60px;
+    height: 30px;
+}
+
+
+/*Video banner */
+
+#gym {
+    min-height: 100vh;
+    position: relative;
+
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.capa {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.promo {
+    position: relative;
+    z-index: 2;
+    
+}
+
+.banner1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../imagenes/gym.jpg');
+    background-blend-mode: screen;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.479);
+}
+
+
+.banner2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(100vh);
+    background-position: center;
+    background-image: url('../imagenes/entrenamientos.jpg');
+    background-blend-mode: screen;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.692);
+}
+
+.banner3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    /*control altura del banner*/
+    height: calc(100vh);
+    background-position: center;
+    background-image: url('../imagenes/nutri.jpg');
+    background-blend-mode: screen;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.692);
+}
+
+
+.logo{
+    width: 350px;
+}
+
+.titulo1{
+    font-size: 110px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;;
+}
+
+.titulo2{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+}
+
+.fondo1{
+    padding: 500px;
+    background-color: black;
+    
+}
+
+.fondo2{
+    padding: 40px;
+    background-color: rgb(100, 99, 99);
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    background-position: center;
+    background-image: url('../imagenes/nutri.jpg');
+    background-blend-mode: screen;
+    box-shadow: inset 0 0 0 1000px rgba(100, 99, 99, 0.944);
+}
+
+.fondo3{
+    padding: 100px;
+    background-color: rgb(100, 99, 99);
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../imagenes/nutri.jpg');
+    background-blend-mode: screen;
+    box-shadow: inset 0 0 0 1000px rgba(100, 99, 99, 0.944);
+}
+
+.fondo4{
+    background-color: rgb(19, 18, 18);
+    background-blend-mode: screen;
+}
+
+.fondo5{
+    background-color: rgb(46, 44, 44);
+    background-blend-mode: screen;
+}
+
+.parrafo1{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+}
+
+.buscanos{
+    margin-top: 25%;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Ajusta según sea necesario para la separación entre grupos */
+}
+
+.uil-phone {
+    font-size: 24px; 
+    margin-right: 8px; 
+}
+
+.iconoph{
+    margin-bottom: 22px;
+}
+
+.iconoem{
+    margin-bottom: 22px;
+    letter-spacing: 8px;
+}
+
+
+.sin-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.fotosin{
+    height: 50%;
+}
+
+.quienes{
+    margin-top: 50px;
+    font-size: 110px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.quienes2{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    color: rgb(118, 118, 118);
+}
+
+.contactanos{
+    font-size: 110px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(162, 162, 162);
+}
+
+.contacto{
+
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(162, 162, 162);
+}
+
+
+.correo{
+    color: rgb(162, 162, 162);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+}
+
+.planes{
+    margin-top: 50px;
+    font-size: 110px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+}
+
+.planes:hover{
+    margin-top: 50px;
+    font-size: 110px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    transition: .7s ease;
+    text-shadow: 4px 4px rgba(255, 255, 255, 0.177);
+}
+
+
+.box{
+    /*posición de la caja que debe respetarse */
+    position: relative;
+}
+
+.efecto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+/*efecto que se aplica al pasar el mouse sobre las fotos*/
+
+.box:hover .efecto{
+    transform: scale(1);
+}
+
+.visitanos{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+}
+
+.entrena{
+    color: rgb(137, 137, 90);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+}
+
+.parrafo2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.tipo2{
+
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.tipo{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.tipo:hover{
+    color: rgb(125, 125, 33);
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    transition: .5s ease;
+}
+
+
+/*--------------------Tarjetas--------------------*/
+
+.containercard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 90%;
+    gap: 16px;
+}
+
+.content {
+    padding: 24px;
+    flex-grow: 1;
+    height: 260px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 18px 36px -18px 
+    rgba(0,0,0,0.1),
+    0px 30px 45px -30px rgba(50,50,93,0.25);
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    flex-basis: 330px;
+    padding: 4px;
+    min-height: 500px;
+    transition: all 0.2s ease-in-out;
+}
+
+.content > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    line-height: 1.384615385;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.content > p {
+    font-size: 20px;
+    line-height: 1.55;
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
+.card-background {
+    height: 200px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover .card-background {
+    height: 160px;
+}
+
+.card-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:hover .action-bottom-bar a {
+    opacity: 1;
+}
+
+.action-bottom-bar {
+    display: flex;
+    font-size: 18px;
+    height: 42px;
+    width: 100%;
+}
+
+.action-bottom-bar a {
+    display: flex;
+    gap: 6px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 800;
+    opacity: 0;
+    padding: 0 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+.action-bottom-bar a:hover {
+    color: var(--secondary);
+}
+
+.action-bottom-bar a:hover svg {
+    color: var(--secondary);
+}
+
+.action-bottom-bar a svg {
+    transition: all 0.2s ease-in-out;
+}
+
+.arrow {
+    display: none;
+}
+
+.action-bottom-bar a:hover .arrow {
+    display: block;
+}
+
+.action-bottom-bar a:hover .chevron {
+    display: none;
+}
+
+/*-----------Galeria-----------*/
+
+
+
+.background {
+    display: flex;
+    justify-content: center;
+}
+
+.containergal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+    margin: 4px;
+    gap: 4px;
+    max-height: 1630px; 
+    max-width: 1488px;
+    transition: all 0.4s;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.cardgal {
+    padding: 4px;
+    min-width: 580px;
+    min-height: 500px;
+    color: white;
+    display: flex;
+    font-size: 48px;
+    transition: all 0.2s;
+    scroll-snap-align: start;
+}
+
+.cardgal figure {
+    margin: 0px;
+    cursor: move;
+    cursor: grab;
+}
+
+
+.cardgal figure:active {
+    cursor: grabbing;
+}
+
+.cardgal img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.containergal::-webkit-scrollbar {
+    width: 2px;
+}
+
+.containergal::-webkit-scrollbar-track {
+    background: rgba(28, 26, 26, 0.768);
+    border-radius: 2px;
+}
+
+.containergal::-webkit-scrollbar-thumb {
+    background: #413e3c;
+    border-radius: 5px;
+}
+
+.containergal::-webkit-scrollbar-thumb:hover {
+    background: #3b3837;
+} 
+
+
+/*--------------------*/
+
+.fp img {
+    width: 620px;
+    height: 240px;
+}
+
+
+/*permite que se oculten las fotos*/
+
+.galeria .galeriaFotos {
+    display: none;
+}
+
+
+/*permite poner tamaño de fotos*/
+
+.galeria .galeriaFotos img {
+    width: 400px;
+    height: 300px;
+}
+
+#baguetteBox-overlay {
+    display: none;
+    opacity: 0;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+    background-color: #222;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
+
+#baguetteBox-overlay.visible {
+    opacity: 1;
+}
+
+#baguetteBox-overlay .full-image {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /*poner la galeria en otro fondo*/
+    /*background-color: #e4e4e4;*/
+}
+
+#baguetteBox-overlay .full-image figure {
+    display: inline;
+    margin: 0;
+    height: 100%;
+}
+
+#baguetteBox-overlay .full-image img {
+    display: inline-block;
+    width: 700px;
+    height: 500px;
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+#baguetteBox-overlay .full-image figcaption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 1.8;
+    white-space: normal;
+    color: #ccc;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: sans-serif;
+}
+
+#baguetteBox-overlay .full-image:before {
+    content: "";
+    display: inline-block;
+    height: 50%;
+    width: 1px;
+    margin-right: -1px;
+}
+
+
+/*animacion slider de las fotos*/
+
+#baguetteBox-slider {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    -webkit-transition: left 0.4s ease, -webkit-transform 0.4s ease;
+    transition: left 0.4s ease, -webkit-transform 0.4s ease;
+    transition: left 0.4s ease, transform 0.4s ease;
+    transition: left 0.4s ease, transform 0.4s ease, -webkit-transform 0.4s ease, -moz-transform 0.4s ease;
+}
+
+#baguetteBox-slider.bounce-from-right {
+    -webkit-animation: bounceFromRight 0.4s ease-out;
+    animation: bounceFromRight 0.4s ease-out;
+}
+
+#baguetteBox-slider.bounce-from-left {
+    -webkit-animation: bounceFromLeft 0.4s ease-out;
+    animation: bounceFromLeft 0.4s ease-out;
+}
+
+@-webkit-keyframes bounceFromRight {
+    0%,
+    100% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: -30px;
+    }
+}
+
+@keyframes bounceFromRight {
+    0%,
+    100% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: -30px;
+    }
+}
+
+@-webkit-keyframes bounceFromLeft {
+    0%,
+    100% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 30px;
+    }
+}
+
+@keyframes bounceFromLeft {
+    0%,
+    100% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 30px;
+    }
+}
+
+
+/*botones siguiente y anterior*/
+
+.baguetteBox-button#next-button,
+.baguetteBox-button#previous-button {
+    top: 50%;
+    top: calc(50% - 30px);
+    width: 50px;
+    height: 60px;
+    background-color: rgb(10, 10, 10);
+}
+
+.baguetteBox-button {
+    position: absolute;
+    cursor: pointer;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -moz-border-radius: 15%;
+    border-radius: 15%;
+    background-color: #323232;
+    background-color: rgba(50, 50, 50, 0.5);
+    color: #ddd;
+    font: 1.6em sans-serif;
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+}
+
+.baguetteBox-button:focus,
+.baguetteBox-button:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+.baguetteBox-button#next-button {
+    right: 15%;
+}
+
+.baguetteBox-button#previous-button {
+    left: 15%;
+}
+
+
+/* boton cerrar*/
+
+.baguetteBox-button#close-button {
+    top: 30px;
+    right: 30%;
+    right: calc(2% + 200px);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*posicion por defecto boton X (no quitar) */
+
+.baguetteBox-button svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.baguetteBox-spinner {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.baguetteBox-double-bounce1,
+.baguetteBox-double-bounce2 {
+    width: 100%;
+    height: 100%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+.baguetteBox-double-bounce2 {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+
+@-webkit-keyframes bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.form-select{
+    box-shadow: 0 0 8px 3px rgb(123, 104, 136);
+}
+
+.form-select1{
+    width: 400px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 5px rgb(114, 88, 132);
+    border: none;
+}
+
+
+.form-select:hover{
+    border-color: rgb(122, 87, 145);
+    box-shadow: rgb(121, 98, 136);
+}
+
+.form-select:focus{
+    box-shadow: 0 0 10px 5px rgb(119, 94, 136);
+}
+
+
+
+.tusfotos{
+    margin-top: 65px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.31);
+}
+
+.tusfotos2{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.31);
+}
+
+.botonform {
+    box-shadow: 0 0 20px 10px rgba(179, 107, 120, 0.362);
+}
+
+.botonform:hover{
+    background-color: rgba(40, 30, 32, 0.708);
+}
+
+/*------------Redes--------------*/
+
+:root {
+    --background: #2C2C2C;
+    --primary-color: rgb(211, 209, 209);
+    --secondary-color: #2C2C2C;
+}
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.social-media-buttons {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.social-media-buttons li {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    place-items: center;
+    transition: all 0.3s;
+    border: 1px solid var(--primary-color);
+}
+
+.social-media-buttons li a {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--secondary-color);
+}
+
+.social-media-buttons li:hover {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+}
+
+.social-media-buttons li a svg {
+    height: 24px;
+    width: 24px;
+    stroke: var(--secondary-color);
+    stroke-width: 1.75;
+    transition: 0.8s;
+}
+
+.social-media-buttons li:hover svg {
+    stroke: var(--primary-color);
+    transform: rotateY(360deg);
+    stroke-width: 1.75;
+}
+
+.redes{
+    align-items: start;
+}

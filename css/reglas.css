@@ -1,0 +1,150 @@
+/*MEDIAS QUERYS*/
+
+
+/* Extra Small devices (landscape phones, 576px and down)*/
+@media (max-width: 576px) {
+    .banner1{
+        height: calc(100vh);
+        max-width: 100%;
+    }
+    .banner2 .container {
+        padding: 20px;
+    }
+
+    .banner2 h2.entrena {
+        font-size: 24px;
+    }
+    .entrena{
+        margin-bottom: 10px;
+    }
+    .parrafo2{
+        margin-bottom: 260px;
+    }
+    .banner2 p.parrafo2 {
+        font-size: 14px;
+    }
+
+    .banner2 .tipo {
+        padding: 10px;
+        margin: 5px;
+        font-size: 16px;
+    }
+    .banner3{
+        height: calc(100vh);
+        max-width: 100%;
+    }
+    .logo{
+        width: 120px;
+    }
+    .titulo1{
+        font-size: 45px;
+    }
+    .titulo2{
+        font-size: 18px;
+    }
+    .quienes{
+        font-size: 80px;
+    }
+    .quienes2{
+        font-size: 18px;
+    }
+    .entrena{
+        font-size: 50px;
+        margin-top: 350px;
+    }
+    .parrafo2{
+        font-size: 12px;
+    }
+    .tipo{
+        font-size: 20px;
+    }
+    .planes{
+        font-size: 50px;
+    }
+    .containercard{
+        max-width: 70%;
+    }
+    .content > h1 {
+        font-size: 30px;
+    }
+    .containergal{
+        max-height: 1330px; 
+        max-width: 1188px;
+    }
+    .cardgal{
+        min-width: 280px;
+        min-height: 400px;
+    }
+    .banner3 {
+        height: calc(100vh);
+        max-width: 100%;
+    }
+    .contacto{
+        font-size: 40px;
+    }
+    iframe{
+        width: 260px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .banner1{
+        height: calc(100vh);
+        max-width: 100%;
+    }
+    .banner2{
+        height: calc(100vh);
+        max-width: 100%;
+    }
+    .banner3{
+        height: calc(100vh);
+        max-width: 100%;
+    }
+    .logo{
+        width: 150px;
+    }
+    .titulo1{
+        font-size: 70px;
+    }
+    .titulo2{
+        font-size: 30px;
+    }
+    .entrena{
+        font-size: 40px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) { 
+    .banner1{
+        height: calc(100vh);
+    }
+    .logo{
+        width: 330px;
+    }
+    .titulo1{
+        font-size: 110px;
+    }
+    .titulo2{
+        font-size: 50px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
